@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_01.csv\r\npekan",
+      "output": "Tidak ada entry yang valid. Harap coba lagi",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_01.csv\r\n150000",
+      "output": "Kota Pergipapan - populasi: 163640 - jatah makan: 4\r\nKota Salaempat - populasi: 134110 - jatah makan: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_02.csv\r\nlama",
+      "output": "Kota Banjarlama - populasi: 83742 - jatah makan: 2\r\nKota Pekanlama - populasi: 35793 - jatah makan: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_01.csv\r\npa",
+      "output": "Kota Pergipapan - populasi: 163640 - jatah makan: 4\r\nKota Salaempat - populasi: 134110 - jatah makan: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_02.csv\r\n4",
+      "output": "Kota Modernlingga - populasi: 177013 - jatah makan: 4\r\nKota Pergipapan - populasi: 163640 - jatah makan: 4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_02.csv\r\nall",
+      "output": "Kota Banjarlama - populasi: 83742 - jatah makan: 2\r\nKota Modernlingga - populasi: 177013 - jatah makan: 4\r\nKota Nusa Tenggara Selatan - populasi: 124123 - jatah makan: 3\r\nKota Pekanlama - populasi: 35793 - jatah makan: 1\r\nKota Pergipapan - populasi: 163640 - jatah makan: 4\r\nKota Salaempat - populasi: 134110 - jatah makan: 3\r\nKota Shiganshina - populasi: 62345 - jatah makan: 2\r\nKota Sukaplanet - populasi: 123431 - jatah makan: 3\r\nKota Tanjung Pisang - populasi: 212212 - jatah makan: 5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_02.csv\r\n140000",
+      "output": "Kota Nusa Tenggara Selatan - populasi: 124123 - jatah makan: 3\r\nKota Salaempat - populasi: 134110 - jatah makan: 3\r\nKota Sukaplanet - populasi: 123431 - jatah makan: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_03.csv\r\n1",
+      "output": "Kota Banjarlama - populasi: 13742 - jatah makan: 1\r\nKota Modernlingga - populasi: 25313 - jatah makan: 1\r\nKota Nusa Tenggara Selatan - populasi: 14123 - jatah makan: 1\r\nKota Pekanlama - populasi: 32793 - jatah makan: 1\r\nKota Pergipapan - populasi: 13640 - jatah makan: 1\r\nKota Salaempat - populasi: 14110 - jatah makan: 1\r\nKota Shiganshina - populasi: 147 - jatah makan: 1\r\nKota Sukaplanet - populasi: 45431 - jatah makan: 1\r\nKota Tanjung Pisang - populasi: 12412 - jatah makan: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_02.csv\r\n192212",
+      "output": "Kota Modernlingga - populasi: 177013 - jatah makan: 4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "sensus_02.csv\r\n192213",
+      "output": "Kota Modernlingga - populasi: 177013 - jatah makan: 4\r\nKota Tanjung Pisang - populasi: 212212 - jatah makan: 5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
